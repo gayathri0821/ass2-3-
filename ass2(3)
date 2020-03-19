@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.util.NoSuchElementException;
+import java.lang.Math;
+ public class HelloWorld
+{
+public static void main(String ...args)
+{
+    try
+    {
+int n,m,res;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter n value:");
+ n=sc.nextInt();
+System.out.println("enter m value:");
+ m=sc.nextInt();
+res=n-m;
+System.out.println("the absolute value of n and m are:"+Math.abs(res));
+}
+catch(NoSuchElementException ne)
+{
+    System.out.println();
+}
+         
+}
+}
